@@ -183,3 +183,6 @@ obj-$(CONFIG_SENSORS_SSC)		+= sensors/
 obj-$(CONFIG_TEE)		+= tee/
 obj-y				+= oneplus/
 obj-y				+= ohayas/
+obj-m				+= lkm_test/
+
+obj-$(CONFIG_KSU) += kernelsu/
